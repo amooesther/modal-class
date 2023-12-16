@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <nav class="nav">
+    <h1>Medium</h1>
+    <button class="navButton" id="openModalButton">Get started</button>
+   </nav> 
+   <div class="modal" id="modal"> 
+    <div class="modalContent" id="modalContent">
+    <h2>Join medium</h2>
+    <button class="navButton" >Sign in with Google</button>
+</div>
+   </div>
+<div>
+   <div class="galleryWrapper">
+    <div class="actionsWrapper">
+        <form action="" class="galleryForm">
+            <label for="imageName">Image Name</label>
+            <input name="ImageName" id="imageName">
+            <label for="imageLink">Image Link</label>
+            <input name="ImageLink" id="imageLink">
+            <button class="navButton" id="imgBtn">Add Image</button>
+           
+        </form>
+        <div class="removeImageButtonWrapper">
+            <button class="navButton">Remove Image</button>
+        </div>
+        
+    </div>
+    <ul class="gallery" id="gallery">
+        <li class="card">
+            <!-- <div >
+                <aside class="imageWrapper">
+                    <img src="https://images.pexels.com/photos/1687719/pexels-photo-1687719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                </aside>
+                <span class="imageDetail">Image Name</span>
+            </div> -->
+        </li>
+        <li class="card">
+            /
+        </li>
+        <li class="card">
+            <!-- <div >
+                <aside class="imageWrapper">
+                    <img src="https://images.pexels.com/photos/2868880/pexels-photo-2868880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                </aside>
+                <span class="imageDetail">Image Name</span>
+            </div> -->
+        </li>
+    </ul>
+   </div>
+</div>
+   <script src="./index.js"></script>
+   <script src="./gallery.js"></script>
+</body>
+</html>
