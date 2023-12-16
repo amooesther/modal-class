@@ -97,6 +97,8 @@ li{
 }
 .card{
     position: relative;
+    margin-bottom: 100px;
+    margin-top: 0;
 }
 .imageDetail{
     position: absolute;
